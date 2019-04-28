@@ -1,0 +1,36 @@
+.card {
+	margin-bottom: 5px;
+}
+
+.cardHeader {
+	background-color: #3399ff;
+	color: #fff;
+}
+
+.divList {
+  width: 15%;
+  height: 180px;
+  float: left;
+  text-align: center;
+  margin-top: 2.5%;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+}
+
+.imgSize { 
+  width: 100%;
+  height: 150px;
+}
+
+.divImage {
+  width: 100%;
+  height: 150px;
+}
+
+.divLabel {
+  width: 100%;
+  height: 30px;
+  text-align: center;
+  word-wrap: normal;
+  font-weight: bold;
+}
