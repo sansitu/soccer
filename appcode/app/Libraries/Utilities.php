@@ -138,10 +138,9 @@ class Utilities
     public static function checkArrayValuesAsNumeric($team, &$message)
     {
         $hasError = false;
-        $array = explode(",",$team);
-
-        foreach ($array as $arr) {
-            if (!is_int($arr)) {
+        
+        if (trim($team) != "") {
+            if (!preg_match("/^([0-9,]+)$/", $team)) {
                 $hasError = true;
                 $message = 'Team can contain numeric value separated by comma';
             }
